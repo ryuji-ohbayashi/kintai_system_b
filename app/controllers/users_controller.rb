@@ -11,6 +11,7 @@ class UsersController < ApplicationController
   def create # 5.5.2 11~18
     @user = User.new(user_params)
     if @user.save
+      log_in @user # 追加 6.5 app/assets/javascripts/application.js 追加 6.4
       flash[:success] = '新規作成に成功しました。'
       redirect_to @user # 5.5.5
     else
