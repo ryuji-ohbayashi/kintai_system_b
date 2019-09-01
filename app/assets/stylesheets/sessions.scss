@@ -7,3 +7,11 @@
 .btn-login {
   margin-top: 10px;
 }
+
+.checkbox-login { /* 追加 7.2 11~16 */
+  width: auto;
+  margin-left: 25px;
+  span {
+    font-weight: normal;
+  }
+}
