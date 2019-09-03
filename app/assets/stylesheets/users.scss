@@ -11,3 +11,19 @@
 .btn-signup {
   margin-top: 10px;
 }
+
+.label-user--edit { /* 追加 8.1 15~21 */
+  margin-top: 5px;
+}
+
+.btn-user--edit {
+  margin-top: 10px;
+}
+
+/* ユーザー一覧ページ 追加 8.4  */
+
+#table-users {
+  td {
+    vertical-align: middle;
+  }
+}
