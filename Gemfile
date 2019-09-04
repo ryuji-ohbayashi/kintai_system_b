@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '~> 5.1.6'
+gem 'rails-i18n' # 追加 8.5章
 gem 'bcrypt' # 4.5
 gem 'faker' # 追加 8.4.1
 gem 'bootstrap-sass' # 3.2
