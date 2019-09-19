@@ -4,6 +4,19 @@
   text-align: center;
 }
 
+/* ユーザー勤怠情報テーブル */
+
+#table-attendances { /* 追加 10.2 9~18 */
+  th {
+    vertical-align: middle;
+    text-align: center;
+  }
+  td {
+    vertical-align: middle;
+    text-align: center;
+  }
+}
+
 .label-signup {
   margin-top: 5px;
 }
