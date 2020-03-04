@@ -7,7 +7,7 @@ gem 'faker' # 追加 8.4.1
 gem 'bootstrap-sass' # 3.2
 gem 'will_paginate' # 追加 8.4.2
 gem 'bootstrap-will_paginate' # 追加 8.4.2
-gem 'puma',         '~> 3.7'
+gem 'puma',         '~> 3.12'
 gem 'sass-rails',   '~> 5.0'
 gem 'uglifier',     '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
